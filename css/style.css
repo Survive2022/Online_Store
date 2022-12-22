@@ -51,3 +51,8 @@ body {
 .menu__item {
     margin-right: 10px;
 }
+
+.header__logo {
+    max-width: 300px;
+    max-height: 300px;
+}
