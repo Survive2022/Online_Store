@@ -55,4 +55,4 @@ body {
         /* display flex - дает свойство гибкости */
         flex-direction: column;
         /* flex direction растягивает row/row reverse в бок column/column reverse вниз в верх  */   
-}
+        }
