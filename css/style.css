@@ -14,13 +14,6 @@ a {
     text-decoration: none;
 }
 
-/* убран лист стиль у списков */
-ul,
-ol,
-li {
-    list-style: none;
-}
-
 /* выравнивание по верху изображений чтобы небыло артефактов */
 img {
     vertical-align: top;
@@ -47,12 +40,3 @@ body {
     font-weight: 500;
     font-family: Montserrat;
 }
-
-.header {
-        min-height: 100%;
-        overflow: hidden;
-        display: flex;
-        /* display flex - дает свойство гибкости */
-        flex-direction: column;
-        /* flex direction растягивает row/row reverse в бок column/column reverse вниз в верх  */   
-        }
