@@ -48,7 +48,11 @@ body {
     font-family: Montserrat;
 }
 
-.header__logo {
-    max-width: 140px;
-    max-height: 140px;
+.header {
+        min-height: 100%;
+        overflow: hidden;
+        display: flex;
+        /* display flex - дает свойство гибкости */
+        flex-direction: column;
+        /* flex direction растягивает row/row reverse в бок column/column reverse вниз в верх  */   
 }
